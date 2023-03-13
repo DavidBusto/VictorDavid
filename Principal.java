@@ -16,7 +16,7 @@ public class Principal {
 		libro3.setAutor(autor2);
 		
 		System.out.println(libro1.toString()+"hola");
-		System.out.println(libro2.toString());
+		System.out.println(libro2.toString()+"Adios");
 		System.out.println(libro3.toString());
 		
 		System.out.println("Se presta el libro 1");
