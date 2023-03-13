@@ -45,6 +45,7 @@ public class Libro {
 		System.out.println("No se puede prestar porque esta prestado");
 		System.out.println("aaaaaa");
 		System.out.println("bbbbbb");
+		System.out.println("cccccc");
 		if (!this.estaPrestado())
 			System.out.println("No se puede devolver porque no esta prestado");
 		else prestado=false;	}
