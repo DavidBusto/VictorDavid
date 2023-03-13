@@ -21,7 +21,7 @@ public class Autor {
 
 	public void setEdad(int edad) {
 		this.edad = edad;	
-		System.out.println("uwuwuwuuwuwuwu");System.out.println("hola");System.out.println("uwu");
+		System.out.println("uwu");System.out.println("Adios");System.out.println("uwu");
 
 
 	}
