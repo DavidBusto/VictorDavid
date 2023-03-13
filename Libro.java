@@ -43,6 +43,7 @@ public class Libro {
 
 	public void devolver(){
 		System.out.println("No se puede prestar porque esta prestado");
+		System.out.println("aaaaaa");
 		if (!this.estaPrestado())
 			System.out.println("No se puede devolver porque no esta prestado");
 		else prestado=false;	}
