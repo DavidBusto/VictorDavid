@@ -53,7 +53,7 @@ public class Libro {
 		}
 
 	public String toString() {
-		return "Libro [titulo=" + titulo + ", autor=" + autor.toString() + ", prestado="
+		return "Libro [titulo=" + titulo + ", autor=" + autor.toString() + ",el libro esta prestado="
 		+ prestado + "]";
 	}
 }
