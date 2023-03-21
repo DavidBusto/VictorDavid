@@ -27,5 +27,9 @@ public class Principal {
 		libro1.devolver();
 		
 		System.out.println(libro1.toString());	
+		//Nuevo libro//
+		Autor delHobbit=new Autor("J.K.Rowling", 38);
+		Libro Hobbit=new Libro("El Hobbit", delHobbit);
+		Hobbit.toString();
 	}
 }
