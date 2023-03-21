@@ -31,5 +31,6 @@ public class Principal {
 		Autor delHobbit=new Autor("J.K.Rowling", 38);
 		Libro Hobbit=new Libro("El Hobbit", delHobbit);
 		Hobbit.toString();
+		Hobbit.prestar();
 	}
 }
