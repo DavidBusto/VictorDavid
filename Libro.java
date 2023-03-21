@@ -4,7 +4,7 @@ public class Libro {
 	String titulo;
 	Autor autor;
 	boolean prestado;
-
+	String Categoria;
 	public Libro(){}
 
 	public Libro(String titulo, Autor autor ) {		
