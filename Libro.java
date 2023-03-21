@@ -7,10 +7,12 @@ public class Libro {
 	String Categoria;
 	public Libro(){}
 
-	public Libro(String titulo, Autor autor ) {		
+	public Libro(String titulo, Autor autor, String Categoria ) {		
 		this.titulo = titulo;
 		this.autor = autor;
-		this.prestado = false;	}
+		this.prestado = false;
+		this.Categoria= Categoria;
+	}
 
 	public Libro (String titulo){
 		this.titulo = titulo;		
