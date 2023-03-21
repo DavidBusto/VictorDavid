@@ -1,8 +1,7 @@
 package Proyecto;
 public class Principal {
 	public static void main(String[] args) {
-		Autor autor1=new Autor();
-		autor1.setNombre("Pepe");	autor1.setEdad(30);
+		
 
 		Autor autor2=new Autor("Juan", 45);
 		
