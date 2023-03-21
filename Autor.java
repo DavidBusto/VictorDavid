@@ -28,7 +28,18 @@ public class Autor {
 	public void setEdad(int edad) {
 		this.edad = edad;	
 	}
-	
+	public void setAutores(String Autores) {
+		this.edad = edad;	
+	}
+	public int getAutores() {
+		return edad;	}
+
+	public void setDireccion(String direccion) {
+		this.edad = edad;	
+	}
+	public int getDireccion() {
+		return edad;	}
+
 	public String toString() {
 		return "Autor [nombre=" + nombre + ", edad=" + edad + "]";	
 	}
