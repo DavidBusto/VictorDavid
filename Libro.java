@@ -42,7 +42,6 @@ public class Libro {
 		else prestado=true;	}	
 
 	public void devolver(){
-		System.out.println("No se puede prestar porque esta prestado");
 		if (!this.estaPrestado()){
 			System.out.println("No se puede devolver porque no esta prestado");
 		}
