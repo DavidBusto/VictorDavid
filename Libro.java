@@ -33,13 +33,16 @@ public class Libro {
 		this.autor.setEdad(30);	}
 
 	public boolean estaPrestado() {
-		return prestado;	}
+		return prestado;	
+	}
 
 	public void prestar() {
-		if (this.estaPrestado())
+		if (this.estaPrestado()=true){
 			System.out.println("No se puede prestar porque esta prestado");
 		
-		else prestado=true;	}	
+		}else{ 
+			prestado=true;	
+		}	
 
 	public void devolver(){
 		if (!this.estaPrestado()){
