@@ -5,6 +5,7 @@ public class Autor {
 	int edad;
 	int a;
 	String Autores;
+	String dirección;
 	public Autor(){	}
 	
 	public Autor(String nombre, int edad) {
@@ -22,16 +23,11 @@ public class Autor {
 
 	public void setEdad(int edad) {
 		this.edad = edad;	
-		
-		System.out.println("Adios");
-		System.out.println("Hola");
-		System.out.println("fndsjfgbafiewhuihwruerkjbrekbkre");
-
-
 	}
 	
 	public String toString() {
-		return "Autor [nombre=" + nombre + ", edad=" + edad + "]";	}
+		return "Autor [nombre=" + nombre + ", edad=" + edad + "]";	
+	}
 	
 	
 }
