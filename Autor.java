@@ -29,16 +29,16 @@ public class Autor {
 		this.edad = edad;	
 	}
 	public void setAutores(String Autores) {
-		this.edad = edad;	
+		this.Autores = Autores;	
 	}
 	public int getAutores() {
-		return edad;	}
+		return Autores;	}
 
 	public void setDireccion(String direccion) {
-		this.edad = edad;	
+		this.direccion = direccion	
 	}
 	public int getDireccion() {
-		return edad;	}
+		return dirección;	}
 
 	public String toString() {
 		return "Autor [nombre=" + nombre + ", edad=" + edad + "]";	
