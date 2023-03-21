@@ -4,6 +4,7 @@ public class Autor {
 	String nombre;
 	int edad;
 	int a;
+	String Autores;
 	public Autor(){	}
 	
 	public Autor(String nombre, int edad) {
