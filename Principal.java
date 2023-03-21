@@ -32,5 +32,7 @@ public class Principal {
 		Libro Hobbit=new Libro("El Hobbit", delHobbit);
 		Hobbit.toString();
 		Hobbit.prestar();
+		Hobbit.devolver();
+		
 	}
 }
