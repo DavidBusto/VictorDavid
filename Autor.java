@@ -8,9 +8,13 @@ public class Autor {
 	String dirección;
 	public Autor(){	}
 	
-	public Autor(String nombre, int edad) {
+	public Autor(String nombre, int edad, int a, String Autores, String dirección) {
 		this.nombre = nombre;
-		this.edad = edad;	}
+		this.edad = edad;	
+		this.a=a;
+		this.Autores=autores;
+		this.dirección=direccion;
+	}
 
 	public String getNombre() {
 		return nombre;	}
