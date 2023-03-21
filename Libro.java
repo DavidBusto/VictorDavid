@@ -43,12 +43,12 @@ public class Libro {
 
 	public void devolver(){
 		System.out.println("No se puede prestar porque esta prestado");
-		System.out.println("aaaaaa");
-		System.out.println("bbbbbb");
-		System.out.println("cccccc");
-		if (!this.estaPrestado())
+		if (!this.estaPrestado()){
 			System.out.println("No se puede devolver porque no esta prestado");
-		else prestado=false;	}
+		}
+		else{ 
+			prestado=false;	
+		}
 
 	public String toString() {
 		return "Libro [titulo=" + titulo + ", autor=" + autor.toString() + ", prestado="
